@@ -1,3 +1,0 @@
-Singbook maker - edytor śpiewników
-
-Program będzie aplikacją okienkową umożliwiającą tworzenie oraz edycję zaisanych wcześniej śpiewników. Umożliwi dodawanie i usuwanie piosenek, zamianę konkretnych słów na inne. Udostępni funkcję sortowania piosenek. Program korzystając z biblioteki itextpdf będzie generował utworzone śpiewniki w formacie pdf. Udostępni także funkcję sortowania stron śpiewnika do druku w formacie dwustronnego druku dwóch stron na jednej poziomo zorientowanej kartce (wystarczy zgiąć wydrukowane kartki w połowie, by otrzymać książeczkę).
