@@ -4,6 +4,7 @@ target/
 !**/src/test/**/target/
 
 testy_przykłady/
+OE
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

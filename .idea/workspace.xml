@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76dafde-0366-457b-8f6a-bcf5d4a9ff0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OE" beforeDir="false" afterPath="$PROJECT_DIR$/OE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OazaEw.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/OazaEw.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singbook_maker opis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Songbook_maker opis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bez_okladki.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bez_okladki_sorted.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bez_okładki.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/centered.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/centered_sorted.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/columns.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duzy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maly.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oaza_czarny.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oaza_różowy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oe_sorted.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/oe_sorted.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/okładka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/Śpiewnik 21-23.10.2022.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/Śpiewnik oazowy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/Śpiewnik sylwester 2022 na 2023.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/śpiewnik_oazowy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/śpiewnik_ponad_murami.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs_to_manipulate/śpiewnik_sylwester.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pls.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pls.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/chapter01/hello_world.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/śpiewniki/śpiewnik_oazowy_sorted.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/śpiewniki/śpiewnik_ponad_murami_sorted.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/śpiewniki/śpiewnik_sylwester_sorted.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/sorted.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_okladka.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/znaki.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/śpiewnik" beforeDir="false" afterPath="$PROJECT_DIR$/śpiewnik" afterDir="false" />
-    </list>
+    <list default="true" id="c76dafde-0366-457b-8f6a-bcf5d4a9ff0e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +92,7 @@
       <workItem from="1688938601618" duration="231000" />
       <workItem from="1688976946974" duration="1348000" />
       <workItem from="1688978991360" duration="1767000" />
-      <workItem from="1695464453771" duration="1224000" />
+      <workItem from="1695464453771" duration="1820000" />
     </task>
     <servers />
   </component>
