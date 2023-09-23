@@ -1,0 +1,69 @@
+Edytor śpiewników
+
+OPIS PROJEKTU
+Program jest aplikacją okienkową umożliwiającą tworzenie oraz edycję zapisanych wcześniej śpiewników. Umożliwia dodawanie i usuwanie piosenek, zamianę konkretnych słów na inne. Udostępnia funkcję sortowania piosenek leksykograficznie po tytułach. Program korzystając z biblioteki itextpdf generuje utworzone śpiewniki w formacie pdf. Udostępnia także funkcję sortowania stron śpiewnika do druku w formacie książeczki A5.
+
+OPIS KLAS
+
+1. Main - uruchamia okno interfejsu startowego
+2. Song - implementuje obiekt piosenki, zawierającej tytuł, tekst i chwyty;
+	implementuje interfejsy Comparable i Serializable
+	oraz udostępniający metody manipulacji piosenką:
+	* public void WordSwap(String from, String to) - zamienia wystąpienia słowa
+	argumentu "from" na słowo pod argumentem "to"
+	* public int compareTo(Song s) - porównuje piosenki leksykograficznie po tytułach
+3. Songbook - implementuje śpiewnik - kolekcję piosenek wraz z metodami 
+	manipulującymi śpiewnikiem; posiada osobne pole titles, zawierające tytuły piosenek
+	w śpiewniku
+	* public void AddSong(Song song) - funkcja dodaje piosenkę do vectora "songs"
+	* public void RemoveSong(String title) - usuwa piosenkę ze śpiewnika
+	* public void SongSort() - fukcja sortująca piosenki w śpiewniku
+	* public Song findSong(String title) - funkcja szukająca w śpiewniku piosenki po tytule
+4. Song_Swing - implementuje okno edycji piosenki; udostępnia jej tytuł, chwyty, tekst, a także
+	przyciski funkcyjne
+	* saveButt - przycisk zapisuje zmiany dokonane na piosence i jeśli tytuł jest unikatowy, a
+	piosenka nie została jeszcze dodana do śpiewnika, dodaje ją do śpiewnika
+	* wordSwapButt - przycisk uruchamia okno zamiany słów piosenki
+5. Songbook_Swing - implementuje okno udostępniające edycję śpiewnika, jego zapis, a także generowanie
+	go do pliku PDF udostępnia tytuł, listę piosenek oraz przyciski uruchamiające funkcje 
+	* private void saveToFile(Songbook songbook, String filename) - zapisuje obiekt "songbook" do
+	pliku pod aresem "filename"
+	* public static void errorMessage(String message) - statyczna funkcja uruchamiająca 
+	okno z komunikatem błędu
+	* AddButt - przycisk otwiera okno edycji nowej piosenki
+	* RemoveButt - przycisk usuwa ze śpiewnika wszystkie zaznaczone piosenki
+	* EditButt - przycisk otwiera okno edycji zaznaczonej piosenki
+	* SongSortButt - przycisk sortuje piosenki alfabetycznie po tytułach
+	* SaveButt - przycisk zapisuje zmiany dokonane na śpiewniku i zapisuje go do pliku 
+	pod adres "accPathT"
+	* PDFGenButt - przycisk uruchamia okno generowania pliku PDF, podając konstruktorowi 
+	edytowany aktualnie śpiewnik
+6. StartInterface_Swing - implementuje okno interfejsu startowego aplikacji, udostępnia pole 
+	tekstowe przeznaczone do wpisania w nie ścieżki dostępu do pliku oraz przyciski 
+	uruchamiające konkretne funkcje programu
+	* NewSongbookButt - przycisk uruchamia okno edyji nowego śpiewnika
+	* EditSongbookButt - przycisk uruchamia okno edycji śpiewnika wskazanego w polu "accpathT"
+	* SortPDFButt - przycisk uruchamia okno sortera, który posortuje plik znajdujący się pod
+        adresem "accpathT"
+7. WordSwapper_Swing - implementuje okno zamiany słów piosenki
+	* SaveButt - przycisk powoduje zamianę w piosence "song" słowa pobranego z "ChangeFromT" 
+	na słowo pobrane z "ChangeToT"
+8. Songbook_PDF - klasa dostarcza metod obsługujących pliki PDF, korzystając z biblioteki itext7
+	* public static void GeneratePDF(Songbook songbook, String DEST, 
+		String coverImage, Boolean importCoverImage) - statyczna metoda generuje śpiewnik 
+		w formacie PDF, dodaje okładkę w zależności od wartości "importCoverImage" 
+		generuje spis treści oraz właściwą część śpiewnika z tekstami i chwytami piosenek
+	* public static void PagePrintSort(String SRC, String DEST) - statyczna metoda sortuje 
+	plik PDF znajdujący się pod ścieżką SRC do druku w formacie książeczki A5 i zapisuje 
+	go pod adresem DEST
+9. PDF_Swing - implementuje okno obsługujące generowanie śpiewników w PDF
+	* generate - przycisk generuje plik PDF i zapisuje go pod adres "destT";
+        dodawanie okładki jest zależne od stanu chcekboxa "coverImageCB"
+        * coverImageCB - checkbox reaguje na zmianę stanu
+10. PDF_Sort_Swing - implementuje okno sortera dokumentów PDF
+	* Sort - przycisk uruchamia sortowanie pliku, który znajdzie się po posortowaniu 
+	pod adresem podanym w "destT"
+11. NotFoundException - klasa reprezentuje wyjątek, w którym w śpiewniku nie została 
+	odnaleziona piosenka
+12. ErrorMessageSwing - tworzy panel z wiadomością błędu
+        
